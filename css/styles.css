@@ -220,6 +220,7 @@ a {
 }
 
 .adress-map-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -227,6 +228,7 @@ a {
 }
 
 .adress-mail {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -234,6 +236,7 @@ a {
 }
 
 .adress-phone {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -253,6 +256,10 @@ a {
 }
 
 .button-item {
+}
+
+.portfolio-button {
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -261,9 +268,8 @@ a {
   color: var(--tittle-text-color);
   background-color: #f5f4fa;
 }
-
-.button-item:hover,
-.button-item:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #f5f4fa;
   background-color: var(--accent-color-text);
 }
