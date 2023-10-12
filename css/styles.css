@@ -112,10 +112,10 @@ ul {
 
 /* team */
 .our-team {
-    background-color: F4F4FD;
+    background-color: #F4F4FD;
 }
 
-.team-list {
+.team-lisr-item {
     background-color: #FFFFFF;
 }
 .team-title {
@@ -186,7 +186,7 @@ ul {
 }
 
 .footer-logo-span {
-    background-color: #f4f4fd;
+    color: #f4f4fd;
 }
 .footer-text {
     color: #f4f4fd;
