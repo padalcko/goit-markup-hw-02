@@ -1,5 +1,4 @@
 :root {
-    --primary-bg-color: #FFFFFF;
     --hero-bg-color: #2E2F42;
     --footer-bg-color: #2E2F42;
     --primary-text-color: #434455;
@@ -14,7 +13,7 @@
 }
 
 body {
-    background-color: var(--primary-bg-collor);
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
