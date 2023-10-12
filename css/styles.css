@@ -27,15 +27,15 @@ ul {
 .nav-logo {
     font-family: "Raleway", sans-serif;    
     text-decoration: none;
-    color: var(--primary-title-color);
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.accent-logo {
-    color: var(--accent-color);
+.logo-span {
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -76,7 +76,7 @@ ul {
     color: var(--main-title-color);
     font-size: 56px;
     Font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -85,15 +85,17 @@ ul {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
 }
-.button:hover,
-.butoon:focus {
-    background-color: #404BBF;
+.button:hover {
     background-color: #404BBF;
 }
+.butoon:focus {
+    background-color: #404BBF;
+}
+
 /* about */
 .about-item-title {
     color: var(--primary-title-color);
@@ -160,19 +162,23 @@ ul {
 
 /* footer */
 
-.footer-container {
-    background-color: var(--footer-bg-color);
+.footer {
+    background-color: #2e2f42;
 }
 
 .footer-logo {
-    color: var(--main-footer-color);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #4d5ae5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
+}
+
+.footer-logo-span {
+    background-color: #f4f4fd;
 }
 .footer-text {
     color: var(--main-footer-color);
