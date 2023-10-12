@@ -92,7 +92,7 @@ ul {
 .button:hover {
     background-color: #404BBF;
 }
-.butoon:focus {
+.button:focus {
     background-color: #404BBF;
 }
 
@@ -111,14 +111,21 @@ ul {
 }
 
 /* team */
+.our-team {
+    background-color: F4F4FD;
+}
 
+.team-list {
+    background-color: #FFFFFF;
+}
 .team-title {
     color: var(--primary-title-color);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-item-title {
@@ -141,9 +148,10 @@ ul {
     color: var(--primary-title-color);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-item-title {
@@ -181,8 +189,8 @@ ul {
     background-color: #f4f4fd;
 }
 .footer-text {
-    color: var(--main-footer-color);
+    color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
