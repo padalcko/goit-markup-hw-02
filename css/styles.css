@@ -1,5 +1,5 @@
 :root {
-    --primary-bg-color: #fff;
+    --primary-bg-color: #FFFFFF;
     --hero-bg-color: #2E2F42;
     --footer-bg-color: #2E2F42;
     --primary-text-color: #434455;
@@ -26,12 +26,12 @@ ul {
 
 /* header */
 .nav-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;    
     text-decoration: none;
     color: var(--primary-title-color);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -44,15 +44,18 @@ ul {
     color: var(--nav-links-color);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.address {
+    font-style: normal;
 }
 
 .adress-link {
     text-decoration: none;
     color: var(--contact-link-color);
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -87,11 +90,16 @@ ul {
     letter-spacing: 0.64px;
     cursor: pointer;
 }
-
+.button:hover,
+.butoon:focus {
+    background-color: #404BBF;
+    background-color: #404BBF;
+}
 /* about */
 .about-item-title {
     color: var(--primary-title-color);
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
